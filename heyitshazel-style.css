@@ -1,0 +1,107 @@
+* {
+    margin: 3;
+    padding: 3;
+    text-align: center;
+}
+.barlow-regular {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white
+}
+body {
+    background-color: #4b1223;
+}
+h1 {
+    font-size: 5em;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white
+}
+h2 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white
+}
+h3 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white
+}
+div {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0 1.5rem;
+}
+p {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding: 0 1.5rem;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+button {
+     color: white;
+    background-color: black;
+    padding: 0 1.5rem;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 5px;
+    padding: 1rem 3rem;
+    border: none;
+}
+img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.search {
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    border-radius: 28px;
+    background: #752b41;
+}
+.search-input {
+    font-size: 16px;
+    color:#ffffff;
+    margin-left: 14px;
+    outline: none;
+    border: none;
+    background: transparent;
+}
